@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tamiu Ads</title>
+  <link rel="shortcut icon" href="favicon.ico">
+   <link rel="stylesheet" href="basic.css">
+   <link rel="stylesheet" href="register.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+<body>
+<div class="topcolor">
+<div class="container-fluid">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-1">
+    <img src="logo.jpg">
+    </div>
+    <div class="col-sm-4">
+    <br><br>
+	<a href="homepage.html" style="text-decoration:none;color:black;"> <h2> Tamiu Advertisements</h2></a>
+	</div>
+	<div class="col-sm-1">
+	<!--<a href="homepage.html" style="text-decoration:none;color:white;"><button id="rcorners2" style="float:left;">
+	<p style="padding-top:15px;">Home</p></button></a>-->
+	
+	</div>
+    <div class="col-sm-3" id="rcorners1" style="border-style:ridge;">
+    <!--<button id="rcorners1"><h4>Log In</h4></button>-->
+	<ul class="nav navbar-nav navbar-right" >
+        <li><p class="navbar-text">Already have an account?</p></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+				
+					 <div class="row"  style="background-color: white;height:370px;width:330px;border-style: inset;background: #f9a001;">
+							<div class="col-xl-12" >
+								<h5>Login via</h5>
+								<div class="social-buttons">
+									<a href="https://en-gb.facebook.com/login/" class="btn btn-fb" style="border-color:white;border-style:ridge;"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="https://twitter.com/login" class="btn btn-tw" style="border-color:white;border-style:ridge;"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                <h5>or</h5>
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="" style="color: white;">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block" style="border-color:white;border-style:ridge;background: #835C3B;">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="register.html" style="color: white;"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+	</div>
+    <div class="col-sm-1">
+	<a href="register.html" style="text-decoration:none;color:white;"><button id="rcorners2">
+	<p style="padding-top:15px;">Register</p></button></a>
+	</div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="col-sm-12">
+    <div style='border-bottom:2px solid #ccc;'></div>
+</div>
+  </div>  
+</div>
+</div>
+
+<div style="padding-top:30px;">
+<div class="container">
+<div class="container-fluid">
+  <div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-sm-2"></div>
+    <div class="col-sm-7" style=" border: 2px solid #ccc;;padding-top:45px;padding-bottom:55px;>
+  <h4>Register</h4>
+  <form class="form-horizontal" action="/action_page.php" >
+    <div class="col-sm-8">
+	<div class="form-group">
+      <label class="control-label col-sm-4" for="name">First Name:</label>
+      <div class="col-sm-8">
+        <input type="fname" class="form-control" id="fname" placeholder="Enter first name" name="fname" required>
+      </div>
+    </div>
+	<div class="form-group" style="padding-top:30px;">
+      <label class="control-label col-sm-4" for="name">Last Name:</label>
+      <div class="col-sm-8">
+        <input type="lname" class="form-control" id="lname" placeholder="Enter last name" name="lname" required>
+      </div>
+    </div>
+	<div class="form-group" style="padding-top:30px;">
+      <label class="control-label col-sm-4" for="name">User Name:<label style="color:red">*</label></label>
+      <div class="col-sm-8">
+        <input type="uname" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      </div>
+    </div>
+    <div class="form-group" style="padding-top:30px;">
+      <label class="control-label col-sm-4" for="pwd">Password:<label style="color:red">*</label></label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+      </div>
+    </div>
+    <div class="form-group" style="padding-top:30px;">
+      <label class="control-label col-sm-4" for="phoneno">Phone no:<label style="color:red">*</label></label>
+      <div class="col-sm-8">          
+        <input type="phoneno" class="form-control" id="phoneno" placeholder="Enter phone no" name="phoneno" required>
+      </div>
+    </div>
+	<div class="form-group" style="padding-top:30px;">
+      <label class="control-label col-sm-4" for="phoneno">Email id:</label>
+      <div class="col-sm-8">          
+        <input type="email" class="form-control" id="email" placeholder="Enter email id" name="email">
+      </div>
+    </div>
+	
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10" style="padding-top:40px;">
+        <button type="submit" class="btn btn-default" style="float:right;" >Submit</button>
+      </div>
+	  
+    </div>
+	
+	</div>
+	</form>
+	</div>
+ 
+<div class="col-sm-1" style="background-color:red;float:left;">
+	<div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <a href="https://en-gb.facebook.com/login/"><button class="social-signin facebook">Log in with facebook</button></a>
+    <a href="https://twitter.com/login"><button class="social-signin twitter">Log in with Twitter</button></a>
+    <a href="https://plus.google.com/"><button class="social-signin google">Log in with Google+</button></a>
+  </div>
+  <div class="or">OR</div>
+	</div>
+ 
+</div>
+
+	
+    <div class="col-sm-2"></div>
+  </div>
+  </div>  
+</div>
+</div>
+</div>
+
+
+
+
+<br><br>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+<footer class="container-fluid bg-4 text-center">
+  <div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <div style="float:left;">Find us @: 
+		<a target="_blank" title="follow me on twitter" href="https://twitter.com/login"><img alt="follow me on twitter" src="twitter.jpg" border=0></a>
+		<a target="_blank" title="follow me on twitter" href="https://www.instagram.com/accounts/login/"><img alt="follow me on instagram" src="instagram.jpg" border=0></a>
+		<a target="_blank" title="follow me on twitter" href="https://en-gb.facebook.com/login/"><img alt="follow me on facebook" src="fb.jpg" border=0></a>
+  </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div>We Provide. You Consume.</div>
+	  Need help ? <a href="contactus.html" style="text-decoration:underline;color:white;"> Contact Us</a>
+    </div>
+    <div class="col-sm-4"> 
+       <div style="float:right;">Copyright: Arzoo Hingorani 2017 - 2018 |</div>
+    </div>
+  </div>
+  </div>
+</footer>
+</nav>
+</body>
+</html>

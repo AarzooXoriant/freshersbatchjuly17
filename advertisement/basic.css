@@ -1,0 +1,122 @@
+.topcolor
+{
+	//background:beige;
+	border-radius: 75px;
+}
+#rcorners1 {
+    border-radius: 5px;
+    background: #f9a001;
+	color:white;
+	top: 50px;
+	width: 300px;
+    height: 40px; 
+}
+#rcorners2 {
+    border-radius: 5px;
+	border-style:ridge;
+    background: #835C3B;
+    width: 80px;
+    height: 40px;  
+	position: absolute;
+        top: 50px;
+        right: 0;
+	color:white;
+	float:left;
+	
+	
+}
+.dropdown-toggle
+{
+	color:white;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+	
+}
+
+#login-dp .help-block{
+    font-size:12px   
+	
+}
+#login-dp .bottom{
+    
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+/*.btn-fb{
+	border-radius: 5px;
+    background: #835C3B;
+	color: white;
+	border-style:groove;
+	padding-left:50px;
+}*/
+.dropdown-toggle:active, .open .dropdown-toggle {
+        background:#835C3B !important; 
+        color:white !important;
+    }
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+
+/*.btn-tw {
+	border-radius: 5px;
+    background: #835C3B;
+	color: white;
+}*/
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.btn.btn-primary.dropdown-toggle{
+	 background-color:#f9a001;
+}
+
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.bg-4 { 
+    background-color: #835C3B ;
+    color: #ffffff;
+	border-radius: 5px;
+	border-style:ridge;
+}
