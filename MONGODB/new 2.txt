@@ -1,0 +1,10 @@
+db.emp.aggregate([
+{
+    "$project":{
+        "ename":1,
+        "month":{"$month" :"$hiredate"},
+        "year":{"$year":"$hiredate"}}},
+        {
+            "$sort":{"month":1}
+        }
+])

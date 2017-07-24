@@ -1,0 +1,5 @@
+http://beginnersbook.com/2015/05/normalization-in-dbms/
+
+
+date
+https://www.baskent.edu.tr/~tkaracay/etudio/ders/dbase/sql/pdfSQL/DateConversions.pdf
